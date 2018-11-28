@@ -11,6 +11,7 @@ public class Apunte implements Serializable
 {
     //Probando
 
+    private static final boolean subido = true;
     /**
      * Constante de serialización.
      */
