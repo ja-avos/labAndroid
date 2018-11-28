@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="uniandes.apo2h.misapuntes.interfaz.AgregarCursoActivity"
+    tools:showIn="@layout/activity_agregar_curso">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/txtNombreCurso"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:ems="10"
+            android:hint="Nombre Curso"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="388dp" />
+
+        <EditText
+            android:id="@+id/txtNombreProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Nombre Profesor"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <EditText
+            android:id="@+id/txtCorreoProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Correo Profesor"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="102dp" />
+
+        <Button
+            android:id="@+id/btnAgregarCurso"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="Agregar Curso"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="-72dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MisApuntes</string>
+    <string name="title_activity_lista_cursos">Mis Apuntes</string>
+    <string name="title_activity_agregar_curso">Agregar Curso</string>
+    <string name="title_activity_lista_apuntes">Lista de Apuntes</string>
+    <string name="title_activity_agregar_apunte">Agregar Apunte</string>
+    <string name="title_activity_lista_contactos">Lista de Contactos</string>
+    <string name="title_activity_agregar_companhero">Agregar Compañero</string>
+</resources>
